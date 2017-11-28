@@ -1,0 +1,334 @@
+/*          Загальні настройки              */
+body{
+/*    color: #666;*/
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    background: url(../img/bg.png) no-repeat center center fixed;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+a:hover,
+a:focus{
+    text-decoration: none;
+}
+
+/***********     HEADAER     *********/
+header{
+    margin-top: 30px;
+    padding-bottom: 50px;
+    background: url(../img/header_bg_img.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.logo img{
+    width: 10%;
+    margin-bottom: 18px;
+    margin-top: 15px;
+}
+.logo_info{
+    font-size: 12px;
+    margin-left: 55px;
+    position: relative;
+    right: 250px;
+    top: 20px;
+}
+.logo_l{
+    color: #fff;
+    font-size: 26px;
+}
+.social_icon{
+    font-size: 22px;
+    padding: 1px 2px;
+    margin-left: 5px;
+}
+.social_icon_1{
+   margin-top: 15px;
+    text-align: right;
+}
+.social_icon_1 a{
+	color: #fff;
+}
+.vk:hover{
+    color: blue;
+}
+.fb:hover{
+    color: aquamarine;
+}
+.yt:hover{
+    color: red;
+}
+.tw:hover{
+    color: aqua;
+}
+.in:hover{
+    color: yellow;
+}
+
+
+/***********     NAV     *********/
+
+ul.main_menu {
+list-style: none;
+border-bottom: 5px solid #bb0000;
+border-top: 1px solid #114477;
+padding: 11px;
+background: #336699
+}
+
+ul.main_menu li {
+display: inline
+}
+
+ul.main_menu li a {
+color: #fefefe;
+text-decoration: none;
+background: #225588;
+border: 1px solid #225588;
+border-bottom: 1px solid #114477; 
+margin: 0; 
+padding: 10px 14px; 
+}
+
+ul.main_menu li a:hover {border-left: 1px solid #114477; border-right: 1px solid #114477}
+
+ul.main_menu li a.selected {
+color: #fefefe;
+background: #bb0000;
+border: 1px #cc0000 solid;
+border-bottom: 1px solid #bb0000;
+border-left: 1px solid #770000;
+padding: 10px 14px;
+}
+
+
+
+/***********     MAIN     *********/
+#main{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #fff;
+}
+#main h2{
+    text-align: center;
+}
+.table_info{
+    font-size: 12px;
+}
+.card{
+    padding: 5px;
+    border: 2px solid transparent;
+    min-height: 550px;
+}
+.card:hover{
+    border: 2px solid #b2e5b2;
+    background-color: #fafdfa;
+}
+.card h3{
+    text-align: center;
+    color: #000;
+}
+.card img{
+    height: 200px;
+}
+.tables h3{
+    text-align: center;
+    
+}
+
+/***********     CLUB_INFO     *********/
+#club_info{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: #161616;
+}
+#club_info img{
+    width: 50px;
+    margin: 0 auto;
+}
+#club_info h3{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 25px;
+}
+.block{
+    background-color: #fff;
+    width: 250px;
+    margin-left: 10px;
+    border-bottom: 2px solid blue;
+}
+.block{
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    margin-left: 25px;
+}
+#club_info .block a img{
+    width: 250px;
+    height: 180px;
+}
+.block a p{
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #666;
+    padding-bottom: 20px;
+}
+/***********     FOOTER     *********/
+
+footer{
+    margin-top: 15px;
+    padding-top: 70px;
+    background-color: #D0D0D0;
+}
+.student {
+    text-align: right;
+}
+.student span{
+    font-weight: bold;
+    color: #000;
+    font-size: 18px;
+}
+.info{
+    text-align: center;
+}
+
+/***********     STADIUM     *********/
+#stadium{
+    background-color: #fff;
+    padding-bottom: 30px;
+}
+.slider h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #000;
+}
+.stadium_img{
+    margin-top: 10px;
+    padding: 3px;
+    border: 1px solid #ccc;
+    padding-bottom: 6px;
+    background-color: #F8F9FA;
+}
+#stadium h4{
+    color: #000;
+}
+.stadium_img p{
+    font-size: 12px;
+    padding-top: 12px;
+}
+.stadium_info{
+    margin-top: 118px;
+    padding: 5px;
+    border: 1px solid #AAAAAA;
+    background-color: #F9F9F9;
+}
+.stadium_info h3,
+.stadium_info h4{
+    text-align: center;
+    padding-bottom: 10px;
+    color: #000;
+}
+.stadium_info h4{
+    font-size: 14px;
+}
+.stadium_info img{
+    margin: 0 auto;
+}
+
+/***********     TEAM     *********/
+#players{
+    background-color: #fff;
+}
+#players h2{
+    text-align: center;
+}
+.player_card{
+    margin-left: 15px;
+    border: 2px solid silver;
+    margin: 5px;
+}
+.player_card h4{
+    padding: 0 15px;
+}
+.player_number{
+    border-right: 2px solid silver;
+    padding: 0 15px;
+    font-size: 24px;
+}
+.player_name{
+    padding: 10px;
+    font-size: 18px;
+}
+.player_position{
+    padding-left: 60px;
+}
+.color_inform_inc{background-color: red;}
+
+
+/***********     TROPHY     *********/
+.main_trophy h2{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.main_trophy{
+    background-color: #fff;
+}
+.main_trophy img{
+    margin-bottom: 40px;
+}
+.img_center{
+    margin: 0 auto;
+}
+.block_trophy{
+    border: 2px solid transparent;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+.block_trophy:hover{
+    border: 2px solid silver;
+}
+.block_trophy img{
+    padding-top: 45px;
+}
+.block_trophy h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.golden_ball{
+    margin-right: 3px;
+    border: 1px solid silver;
+}
+.golden_ball:hover{
+    background-color: #F9F9F9;
+}
+
+.img_center1{
+    margin: 0 auto;
+}
+
+/***********     HISTORY     *********/
+#history{
+    background-color: #fff;
+    padding-top: 20px;
+}
+#history h1{
+    text-align: center;
+    padding: 20px 0;
+}
+#history ul li{
+    list-style: none;
+}
+.history_years img{
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.history_years h3{
+    padding: 2px;
+    text-decoration: underline red;
+}
